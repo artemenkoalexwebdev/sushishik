@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оформление заказа | SUSHI SHIK</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script defer src="js/ad-slider.js"></script>
+    <script defer src="js/product-slider.js"></script>
+    <script defer src="js/renderProducts.js"></script>
+    <script defer src="js/modal-cart.js"></script>
+    <script defer src="js/cart.js"></script>
+    <script defer src="js/calcCartPrice.js"></script>
+    <script defer src="js/toggleCartStatus.js"></script>
+    <script defer src="js/counter.js"></script>
+</head>
+
+<body>
+    <header class="header-cart">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">
+                    <a href="/"><img src="img/header/logo.png" alt=""></a>
+                </div>
+                <div class="socials socials-cart">
+                    <a href="tel:+380725107330" class="nav__link-inst">
+                        <svg class="social-icon" width="30" height="30" viewBox="0 0 30 30" fill="#F52242"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.0001 0C6.7164 0 9.15527e-05 6.71632 9.15527e-05 15C9.15527e-05 23.2836 6.7164 
+                            30 15.0001 30C23.2837 30 29.9999 23.2835 29.9999 15C30 6.71632 23.2837 0 15.0001 0ZM22.921 
+                            21.8867L21.72 23.0879C21.5056 23.302 20.8777 23.4357 20.8576 23.4357C17.0581 23.4688 13.3998
+                             21.9764 10.7118 19.2882C8.01653 16.5913 6.52238 12.92 6.56251 9.10767C6.56251 9.10594 6.70001
+                              8.49606 6.91425 8.28386L8.11521 7.08272C8.55468 6.6412 9.39889 6.44168 9.99028 
+                              6.63953L10.2429 6.7238C10.8326 6.92147 11.4517 7.57345 11.6146 8.17412L12.2187 
+                              10.3914C12.3816 10.9938 12.1619 11.8508 11.7225 12.2903L10.9206 13.0923C11.7079 16.0071 
+                              13.9949 18.2945 16.9101 19.0837L17.7117 18.2815C18.1532 17.84 19.0099 17.6204 19.611 
+                              17.7831L21.828 18.3894C22.4288 18.5545 23.0807 19.1697 23.2783 19.7591L23.3625 
+                              20.0154C23.5584 20.6051 23.3604 21.4492 22.921 21.8867Z" fill="#F52242" />
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/sushi_shik.ru/" target="_blank" class="nav__link-inst">
+                        <svg class="social-icon" width="30" height="30" viewBox="0 0 30 30" fill="#F52242"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M22.2913 8.24375V10.0887C22.2913 10.385 22.05 10.625 21.7475 10.625H19.9163C19.6188 
+                            10.625 19.3737 10.385 19.3737 10.0887V8.24375C19.3737 7.9475 19.6175 7.70875 19.9163 
+                            7.70875H21.7475C22.05 7.70875 22.2913 7.9475 22.2913 8.24375ZM15 17.6163C16.4013 17.6163 
+                            17.535 16.4813 17.535 15.08C17.535 13.6787 16.4013 12.5437 15 12.5437C13.5987 12.5437 
+                            12.465 13.6787 12.465 15.08C12.465 16.4813 13.5987 17.6163 15 17.6163ZM30 15C30 23.2837 
+                            23.2837 30 15 30C6.71625 30 0 23.2837 0 15C0 6.71625 6.71625 0 15 0C23.2837 0 30 6.71625 
+                            30 15ZM23.75 12.8125H18.8088C19.2038 13.4787 19.4438 14.2487 19.4438 15.0787C19.4438 17.5387 
+                            17.4487 19.5338 14.99 19.5338C12.5287 19.5338 10.535 17.5387 10.535 15.0787C10.535 14.2475 
+                            10.7738 13.4775 11.1713 12.8125H6.25V20.3075C6.25 22.2088 7.8375 23.75 9.73875 
+                            23.75H20.3063C22.2075 23.75 23.75 22.2088 23.75 20.3075V12.8125ZM14.9888 18.5112C16.8825 
+                            18.5112 18.42 16.9712 18.42 15.0787C18.42 14.0512 17.965 13.1288 17.2487 12.5C16.9962 
+                            12.2788 16.7125 12.095 16.4025 11.9537C15.97 11.7575 15.4912 11.6475 14.9875 11.6475C14.4812 
+                            11.6475 14.0025 11.7575 13.5713 11.9537C13.2638 12.0937 12.9787 12.2788 12.7275 12.5C12.01 
+                            13.1288 11.555 14.0525 11.555 15.0787C11.5563 16.9712 13.0975 18.5112 14.9888 18.5112ZM23.75 
+                            9.6925C23.75 7.79125 22.2075 6.25 20.3063 6.25H11.3538V9.89625H10.625V6.25H9.89625V9.89625H9.16625V6.30625C8.91375 
+                            6.3475 8.67 6.41 8.4375 6.5025V9.89625H7.70875V6.905C6.83125 7.53 6.25 8.5425 6.25 9.6925V12.0837H11.6988C12.55 
+                            11.1487 13.74 10.625 14.9888 10.625C16.2438 10.625 17.4313 11.1525 18.2775 12.0837H23.75V9.6925Z"
+                                fill="#F52242" />
+                        </svg>
+                    </a>
+                    <a href="https://vk.com/sushi_shik_alchevsk" target="_blank">
+                        <svg class="social-icon" width="30" height="30" viewBox="0 0 30 30" fill="#F52242"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 0C6.71625 0 0 6.71625 0 15C0 23.2837 6.71625 30 15 30C23.2837 30 30 23.2837 
+                            30 15C30 6.71625 23.2837 0 15 0ZM22.93 20.2038H20.5962C19.2775 20.2038 19.0562 19.4525 
+                            17.9688 18.3675C16.9875 17.3863 16.4438 18.1387 16.4663 19.5362C16.4738 19.9075 16.29 
+                            20.2038 15.8475 20.2038C14.4663 20.2038 12.48 20.3988 10.4675 18.2288C8.40875 16.005 6.25 
+                            11.5437 6.25 11.105C6.25 10.845 6.465 10.7288 6.82375 10.7288H9.19625C9.825 10.7288 9.8775 
+                            11.04 10.0538 11.4388C10.7838 13.1025 12.53 16.4412 12.9963 14.5775C13.2638 13.5075 13.3725 
+                            11.0288 12.2275 10.815C11.5775 10.695 12.7225 10 14.38 10C14.7925 10 15.24 10.0437 15.6975 
+                            10.15C16.5387 10.345 16.5425 10.7225 16.53 11.2725C16.4875 13.355 16.2362 14.755 16.785 
+                            15.1087C17.3087 15.4475 18.6862 13.2312 19.415 11.52C19.6137 11.0475 19.6538 10.73 20.2188 
+                            10.73H23.1213C24.6413 10.73 22.9225 12.915 21.6088 14.62C20.55 15.9937 20.6062 16.02 21.8375 
+                            17.1625C22.7137 17.9762 23.75 19.0875 23.75 19.7162C23.75 20.0137 23.5175 20.2038 22.93 
+                            20.2038Z" fill="#F52242" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="order">
+        <div class="container">
+            <div class="order-title">
+                <h1>ВАШ ЗАКАЗ</h1>
+            </div>
+            <div class="order-product__block">
+                <div class="order-product__block-empty">
+                    Корзина пока пуста!
+                </div>
+            </div>
+            <div class="cart-total cart-total__cart">
+                <div class="cart-delivery">
+                    <span class="h5">Доставка:</span>
+                    <span class="delivery-cost">По тарифу такси</span><br>
+                    <span class="small">Бесплатно при заказе от 1000 ₽</span><br>
+                    <span class="small">При самовывозе скидка <span class="discont">5%</span></span>
+                </div>
+                <p><span class="h5">Итого:</span>
+                    <span class="total-price">0</span>
+                    <span class="rouble-cart">₽</span>
+                </p>
+            </div>
+            <div class="email-field">
+                <input type="text" id="ename" name="ename" placeholder="ИМЯ" class="email-input"><br>
+                <input type="tel" id="ephone" name="ephone" placeholder="+380(___)___-__-__" class="email-input"><br>
+                <div class="tooltip">
+                    <input type="text" id="eadress" name="eadress" placeholder="ВВЕДИТЕ ВАШ АДРЕС" class="email-input">
+                    <span class="tooltiptext">Город, улица, дом</span>
+                </div><br>
+                <input type="number" id="ecounter" name="ecounter" min="1" max="100" step="1"
+                    placeholder="КОЛИЧЕСТВО ПЕРСОН" class="email-input"><br>
+                <textarea name="etext" id="etext" cols="30" rows="3" placeholder="ПРИМЕЧАНИЯ К ЗАКАЗУ"
+                    class="email-input"></textarea><br>
+                <label for="deliver" class="deliver-label">
+                    <input type="radio" class="deliver delivery__radio" name="delivery" value="1" checked>
+                    <span class="checkmark"></span>
+                    ДОСТАВКА</label><br>
+                <label for="deliver-self" class="deliver-label">
+                    <input type="radio" class="deliver-self delivery__radio" name="delivery" value="0">
+                    <span class="checkmark"></span>
+                    САМОВЫВОЗ + скидка 5% (по адресу: улица Менжинского,
+                    31, Алчевск)</label><br>
+                <input class="send-email btn" type="submit" value="ПОДТВЕРДИТЬ ЗАКАЗ" onclick="toastFunctionAccept()">
+            </div>
+        </div>
+    </section>
+    <div id="toast-accept">
+        <img src="img/accept.png" alt="">
+        <p>Заказ отправлен!<br>
+            В ближайшее время с вами свяжется оператор.</p>
+    </div>
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="contacts-block">
+                <div class="contacts-img contacts-img__cart ">
+                    <img src="img/delivery/delivery-img.png" alt="">
+                </div>
+                <div class="contacts-info">
+                    <h3 class="contacts-info__title">
+                        Наши контакты
+                    </h3>
+                    <div class="contacts-info__item">
+                        <img src="img/contacts/adres-icon.svg" alt="">
+                        <span>Алчевск, центральный рынок.</span>
+                    </div>
+                    <div class="contacts-info__item">
+                        <img src="img/contacts/inst-icon.svg" alt="">
+                        <a href="https://www.instagram.com/sushi_shik.ru/">
+                            <span>SUSHI SHIK</span>
+                        </a>
+                    </div>
+                    <div class="contacts-info__item">
+                        <img src="img/contacts/phone-icon.svg" alt="" class="contacts-phone-icon">
+                        <a href="tel:+380725107330">
+                            <span>
+                                +38 072 510 73 30
+                            </span>
+                        </a><br>
+                        <a href="tel:+3806655112755">
+                            <span class="contacts-second-phone">
+                                +38 066 551 27 55
+                            </span>
+                        </a>
+
+                    </div>
+                    <div class="contacts-info__item">
+                        <img src="img/contacts/time-icon.svg" alt="">
+                        <span>Пн-Вс с 10:00 до 20:00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer-cart">
+        <div class="container">
+            <h3 class="footer-title__cart">© 2022 SUSHI SHIK All Rights Reserved</h3>
+        </div>
+    </section>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/toastmain.js"></script>
+    <script>
+        $(function () {
+            $("#ephone").mask("+38(999)999-99-99");
+        });
+    </script>
+</body>
+
+</html>
