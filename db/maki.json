@@ -1,0 +1,82 @@
+[
+    {
+        "id": 36,
+        "title": "Маки с Лососем",
+        "desc": "Лосось, нори, рис.",
+        "price": 290,
+        "weight": "150 гр.  6 шт.",
+        "img": "../img/products/maki/maki-losos.png"
+    },
+    {
+        "id": 37,
+        "title": "Маки c Угрем",
+        "desc": "Угорь, унаги, кунжут, нори, рис.",
+        "price": 330,
+        "weight": "160 гр.  6 шт.",
+        "img": "../img/products/maki/maki-ygor.png"
+    },
+    {
+        "id": 38,
+        "title": "Маки с Креветкой",
+        "desc": "Креветка,унаги, кунжут, нори, рис.",
+        "price": 220,
+        "weight": "160 гр.  6 шт.",
+        "img": "../img/products/maki/maki-shramp.png"
+    },
+    {
+        "id": 39,
+        "title": "Маки с Лососем и огурцом",
+        "desc": "Лосось, огурец, рис, нори.",
+        "price": 300,
+        "weight": "150 гр.  6 шт.",
+        "img": "../img/products/maki/maki-lososogyrec.png"
+    },
+    {
+        "id": 40,
+        "title": "Маки с Тунцом",
+        "desc": "Тунец, бальзамик, нори, рис.",
+        "price": 190,
+        "weight": "150 гр.  6 шт.",
+        "img": "../img/products/maki/maki-tynec.png"
+    },
+    {
+        "id": 41,
+        "title": "Маки с Крабом",
+        "desc": "Краб, чука, рис, нори, ореховый соус.",
+        "price": 130,
+        "weight": "160 гр.  6 шт.",
+        "img": "../img/products/maki/maki-crab.png"
+    },
+    {
+        "id": 42,
+        "title": "Хияши",
+        "desc": "Чука, ореховый соус, нори, рис.",
+        "price": 120,
+        "weight": "150 гр.  6 шт.",
+        "img": "../img/products/maki/hiyashi.png"
+    },
+    {
+        "id": 43,
+        "title": "Маки с жареным Тунцом",
+        "desc": "Жареный тунец, болгарский перец, бальзамик,  рис, нори.",
+        "price": 200,
+        "weight": "150 гр.  6 шт.",
+        "img": "../img/products/maki/maki-freetynec.png"
+    },
+    {
+        "id": 44,
+        "title": "Аляска",
+        "desc": "Лосось, краб, огурец, нори, рис.",
+        "price": 260,
+        "weight": "160 гр.  6 шт.",
+        "img": "../img/products/maki/alyaska.png"
+    },
+    {
+        "id": 45,
+        "title": "Окинава",
+        "desc": "Краб, сыр сливочный, икра масаго, ореховый соус, рис, нори.",
+        "price": 220,
+        "weight": "160 гр.  6 шт.",
+        "img": "../img/products/maki/okinava.png"
+    }
+]

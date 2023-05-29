@@ -1,0 +1,34 @@
+[
+    {
+        "id": 9,
+        "title": "Филадельфия c Тунцом",
+        "desc": "Тунец, сыр сливочный, огурец, бальзамик,  авокадо, рис, нори.",
+        "price": 300,
+        "weight": "270 гр.  8 шт.",
+        "img": "../img/products/philadelphia/phill-tynec.png"
+    },
+    {
+        "id": 10,
+        "title": "Филадельфия с Угрем",
+        "desc": "Угорь, сыр сливочный, огурец, авокадо, унаги, кунжут, нори, рис.",
+        "price": 560,
+        "weight": "270 гр.  8 шт.",
+        "img": "../img/products/philadelphia/phill-ygor.png"
+    },
+    {
+        "id": 11,
+        "title": "Филадельфия с Лососем",
+        "desc": "Лосось, сыр сливочный, огурец, авокадо, нори, рис.",
+        "price": 550,
+        "weight": "270 гр.  8 шт.",
+        "img": "../img/products/philadelphia/phill-losos.png"
+    },
+    {
+        "id": 12,
+        "title": "Трио",
+        "desc": "Лосось, угорь, авокадо, сыр сливочный, огурец, рис, нори.",
+        "price": 560,
+        "weight": "280 гр.  8 шт.",
+        "img": "../img/products/philadelphia/trio.png"
+    }
+]

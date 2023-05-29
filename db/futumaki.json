@@ -1,0 +1,42 @@
+[
+    {
+        "id": 46,
+        "title": "Футомак с Тунцом",
+        "desc": "Тунец, огурец, икра масаго, рис, нори, бальзамик.",
+        "price": 290,
+        "weight": "240 гр.  12 шт.",
+        "img": "../img/products/futumaki/futum-tynec.png"
+    },
+    {
+        "id": 47,
+        "title": "Футомак с Угрем",
+        "desc": "Угорь, огурец, икра масаго, унаги, кунжут, рис, нори.",
+        "price": 480,
+        "weight": "240 гр.  12 шт.",
+        "img": "../img/products/futumaki/futum-ygor.png"
+    },
+    {
+        "id": 48,
+        "title": "Футомак Острый",
+        "desc": "Тунец, краб, огурец, икра масаго, острый соус, рис, нори.",
+        "price": 300,
+        "weight": "250 гр.  12 шт.",
+        "img": "../img/products/futumaki/futum-hot.png"
+    },
+    {
+        "id": 49,
+        "title": "Футомак с Креветкой",
+        "desc": "Креветка, огурец, икра масаго, нори, рис, ореховый соус.",
+        "price": 290,
+        "weight": "230 гр.  12 шт.",
+        "img": "../img/products/futumaki/futum-shramp.png"
+    },
+    {
+        "id": 50,
+        "title": "Футомак с Лососем",
+        "desc": "Лосось, огурец, икра масаго, рис, нори.",
+        "price": 460,
+        "weight": "230 гр.  12 шт.",
+        "img": "../img/products/futumaki/futum-losos.png"
+    }
+]

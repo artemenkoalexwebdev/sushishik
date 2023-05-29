@@ -1,0 +1,50 @@
+[
+    {
+        "id": 13,
+        "title": "Калифорния с Лососем",
+        "desc": "Лосось, икра масаго, огурец, авокадо, рис, нори.",
+        "price": 530,
+        "weight": "240 гр.  8 шт.",
+        "img": "../img/products/california/calif-losos.png"
+    },
+    {
+        "id": 14,
+        "title": "Калифорния с Тунцом",
+        "desc": "Тунец, икра масаго, огурец, авокадо, бальзамик, рис, нори.",
+        "price": 310,
+        "weight": "240 гр.  8 шт.",
+        "img": "../img/products/california/calif-tynec.png"
+    },
+    {
+        "id": 15,
+        "title": "Калифорния с Крабом",
+        "desc": "Краб, икра масаго, авокадо, огурец, ореховый соус, рис, нори",
+        "price": 300,
+        "weight": "240 гр.  8 шт.",
+        "img": "../img/products/california/calif-crab.png"
+    },
+    {
+        "id": 16,
+        "title": "Калифорния с жареным Лососем",
+        "desc": "Жареный лосось, сыр сливочный, огурец, авокадо, икра масаго, рис, нори.",
+        "price": 550,
+        "weight": "280 гр.  8 шт.",
+        "img": "../img/products/california/calif-freelosos.png"
+    },
+    {
+        "id": 17,
+        "title": "Калифорния с  Угрем",
+        "desc": "Угорь, огурец, авокадо, икра масаго, унаги, рис , нори.",
+        "price": 470,
+        "weight": "240 гр.  8 шт.",
+        "img": "../img/products/california/calif-ygor.png"
+    },
+    {
+        "id": 18,
+        "title": "Калифорния с Креветкой",
+        "desc": "Креветка, сыр сливочный, икра масаго, авокадо , огурец, рис, нори.",
+        "price": 350,
+        "weight": "280 гр.  8 шт.",
+        "img": "../img/products/california/calif-shramp.png"
+    }
+]

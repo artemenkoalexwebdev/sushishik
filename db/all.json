@@ -1,0 +1,578 @@
+[
+    {
+        "id": 0,
+        "title": "Киото",
+        "desc": "Угорь, лосось, сыр сливочный, огурец, икра масаго, рис, нори.",
+        "price": 550,
+        "weight": "270 гр.  8 шт.",
+        "img": "../img/products/new/kioto.png"
+    },
+    {
+        "id": 1,
+        "title": "Марокко",
+        "desc": "Краб, сыр сливочный, огурец, кунжут, икра масаго, рис, нори.",
+        "price": 280,
+        "weight": "270 гр.  8 шт.",
+        "img": "../img/products/new/marokko.png"
+    },
+    {
+        "id": 2,
+        "title": "Канада в кунжуте",
+        "desc": "Угорь, сыр сливочный, огурец, кунжут, унаги, рис нори.",
+        "price": 400,
+        "weight": "260 гр.  8 шт.",
+        "img": "../img/products/new/kanada.png"
+    },
+    {
+        "id": 3,
+        "title": "Радуга",
+        "desc": "Лосось, угорь, тунец, сыр сливочный, огурец, авокадо, креветка,унаги, кунжут, рис, нори.",
+        "price": 560,
+        "weight": "280 гр.  8 шт.",
+        "img": "../img/products/new/raduga.png"
+    },
+    {
+        "id": 4,
+        "title": "Катана",
+        "desc": "Угорь, лосось, сыр сливочный, икра масаго, рис, нори.",
+        "price": 800,
+        "weight": "290 гр.  8 шт.",
+        "img": "../img/products/new/katana.png"
+    },
+    {
+        "id": 5,
+        "title": "Такао",
+        "desc": "Тунец, сыр сливочный, креветка, огурец, рис, нори.",
+        "price": 360,
+        "weight": "280 гр.  8 шт.",
+        "img": "../img/products/new/takao.png"
+    },
+    {
+        "id": 6,
+        "title": "Токио",
+        "desc": "Угорь, сыр сливочный, огурец, креветка, унаги, кунжут, рис, нори.",
+        "price": 630,
+        "weight": "290 гр.  8 шт.",
+        "img": "../img/products/new/tokio.png"
+    },
+    {
+        "id": 7,
+        "title": "Сакура",
+        "desc": "Лосось, сыр сливочный, перец, креветка, чесночный соус, рис, нори.",
+        "price": 620,
+        "weight": "300 гр.  8 шт.",
+        "img": "../img/products/new/sakura.png"
+    },
+    {
+        "id": 8,
+        "title": "Ролл в стружке тунца",
+        "desc": "Угорь, стружка тунца, огурец, сыр сливочный, унаги, рис, нори.",
+        "price": 420,
+        "weight": "260 гр.  8 шт.",
+        "img": "../img/products/new/rollinstr.png"
+    },
+    {
+        "id": 9,
+        "title": "Филадельфия c Тунцом",
+        "desc": "Тунец, сыр сливочный, огурец, бальзамик,  авокадо, рис, нори.",
+        "price": 300,
+        "weight": "270 гр.  8 шт.",
+        "img": "../img/products/philadelphia/phill-tynec.png"
+    },
+    {
+        "id": 10,
+        "title": "Филадельфия с Угрем",
+        "desc": "Угорь, сыр сливочный, огурец, авокадо, унаги, кунжут, нори, рис.",
+        "price": 560,
+        "weight": "270 гр.  8 шт.",
+        "img": "../img/products/philadelphia/phill-ygor.png"
+    },
+    {
+        "id": 11,
+        "title": "Филадельфия с Лососем",
+        "desc": "Лосось, сыр сливочный, огурец, авокадо, нори, рис.",
+        "price": 550,
+        "weight": "270 гр.  8 шт.",
+        "img": "../img/products/philadelphia/phill-losos.png"
+    },
+    {
+        "id": 12,
+        "title": "Трио",
+        "desc": "Лосось, угорь, авокадо, сыр сливочный, огурец, рис, нори.",
+        "price": 560,
+        "weight": "280 гр.  8 шт.",
+        "img": "../img/products/philadelphia/trio.png"
+    },
+    {
+        "id": 13,
+        "title": "Калифорния с Лососем",
+        "desc": "Лосось, икра масаго, огурец, авокадо, рис, нори.",
+        "price": 530,
+        "weight": "240 гр.  8 шт.",
+        "img": "../img/products/california/calif-losos.png"
+    },
+    {
+        "id": 14,
+        "title": "Калифорния с Тунцом",
+        "desc": "Тунец, икра масаго, огурец, авокадо, бальзамик, рис, нори.",
+        "price": 310,
+        "weight": "240 гр.  8 шт.",
+        "img": "../img/products/california/calif-tynec.png"
+    },
+    {
+        "id": 15,
+        "title": "Калифорния с Крабом",
+        "desc": "Краб, икра масаго, авокадо, огурец, ореховый соус, рис, нори",
+        "price": 300,
+        "weight": "240 гр.  8 шт.",
+        "img": "../img/products/california/calif-crab.png"
+    },
+    {
+        "id": 16,
+        "title": "Калифорния с жареным Лососем",
+        "desc": "Жареный лосось, сыр сливочный, огурец, авокадо, икра масаго, рис, нори.",
+        "price": 550,
+        "weight": "280 гр.  8 шт.",
+        "img": "../img/products/california/calif-freelosos.png"
+    },
+    {
+        "id": 17,
+        "title": "Калифорния с  Угрем",
+        "desc": "Угорь, огурец, авокадо, икра масаго, унаги, рис , нори.",
+        "price": 470,
+        "weight": "240 гр.  8 шт.",
+        "img": "../img/products/california/calif-ygor.png"
+    },
+    {
+        "id": 18,
+        "title": "Калифорния с Креветкой",
+        "desc": "Креветка, сыр сливочный, икра масаго, авокадо , огурец, рис, нори.",
+        "price": 350,
+        "weight": "280 гр.  8 шт.",
+        "img": "../img/products/california/calif-shramp.png"
+    },
+    {
+        "id": 19,
+        "title": "Ролл с жареным Лососем",
+        "desc": "Жареный лосось, огурец, сыр сливочный, кунжут,  рис, нори.",
+        "price": 400,
+        "weight": "240 гр.  8 шт.",
+        "img": "../img/products/roll/roll-freelosos.png"
+    },
+    {
+        "id": 20,
+        "title": "Ролл с жареным Тунцом",
+        "desc": "Жареный тунец, огурец, сыр сливочный, кунжут, рис, нори.",
+        "price": 290,
+        "weight": "240 гр.  8 шт.",
+        "img": "../img/products/roll/roll-freetynec.png"
+    },
+    {
+        "id": 21,
+        "title": "Острый ролл с Тунцом",
+        "desc": "Тунец, огурец, кунжут, острый соус, рис, нори.",
+        "price": 260,
+        "weight": "210 гр.  8 шт.",
+        "img": "../img/products/roll/roll-hottynec.png"
+    },
+    {
+        "id": 22,
+        "title": "Острый ролл с Лососем",
+        "desc": "Лосось, огурец, кунжут, острый соус рис, нори.",
+        "price": 330,
+        "weight": "210 гр.  8 шт.",
+        "img": "../img/products/roll/roll-hotlosos.png"
+    },
+    {
+        "id": 23,
+        "title": "Ролл Сырный",
+        "desc": "Сыр сливочный, пармезан, сыр тостерный, унаги, рис, нори.",
+        "price": 260,
+        "weight": "240 гр.  8 шт.",
+        "img": "../img/products/roll/roll-cheese.png"
+    },
+    {
+        "id": 24,
+        "title": "Ролл Цезарь",
+        "desc": "Куриное филе, сыр сливочный, помидор, сыр пармезан, чесночный соус, рис, нори.",
+        "price": 280,
+        "weight": "260 гр.  8 шт.",
+        "img": "../img/products/roll/roll-cesar.png"
+    },
+    {
+        "id": 25,
+        "title": "Ролл Хиросима",
+        "desc": "Лосось фламбе, сыр сливочный, креветка, рис, нори.",
+        "price": 590,
+        "weight": "280 гр.  8 шт.",
+        "img": "../img/products/roll/roll-hirosima.png"
+    },
+    {
+        "id": 26,
+        "title": "Ролл Ямомото",
+        "desc": "Угорь, сыр сливочный, краб, унаги, кунжут , рис, нори.",
+        "price": 560,
+        "weight": "280 гр.  8 шт.",
+        "img": "../img/products/roll/roll-yamoto.png"
+    },
+    {
+        "id": 27,
+        "title": "Ролл Осака",
+        "desc": "Угорь, сыр сливочный, лосось, кунжут, унаги, рис, нори.",
+        "price": 750,
+        "weight": "300 гр.  8 шт.",
+        "img": "../img/products/roll/roll-osaka.png"
+    },
+    {
+        "id": 28,
+        "title": "Киото",
+        "desc": "Угорь, лосось, сыр сливочный, огурец, икра масаго, рис, нори.",
+        "price": 550,
+        "weight": "270 гр.  8 шт.",
+        "img": "../img/products/new/kioto.png"
+    },
+    {
+        "id": 29,
+        "title": "Марокко",
+        "desc": "Краб, сыр сливочный, огурец, кунжут, икра масаго, рис, нори.",
+        "price": 280,
+        "weight": "270 гр.  8 шт.",
+        "img": "../img/products/new/marokko.png"
+    },
+    {
+        "id": 30,
+        "title": "Канада в кунжуте",
+        "desc": "Угорь, сыр сливочный, огурец, кунжут, унаги, рис нори.",
+        "price": 400,
+        "weight": "260 гр.  8 шт.",
+        "img": "../img/products/new/kanada.png"
+    },
+    {
+        "id": 31,
+        "title": "Радуга",
+        "desc": "Лосось, угорь, тунец, сыр сливочный, огурец, авокадо, креветка,унаги, кунжут, рис, нори.",
+        "price": 560,
+        "weight": "280 гр.  8 шт.",
+        "img": "../img/products/new/raduga.png"
+    },
+    {
+        "id": 32,
+        "title": "Катана",
+        "desc": "Угорь, лосось, сыр сливочный, икра масаго, рис, нори.",
+        "price": 800,
+        "weight": "290 гр.  8 шт.",
+        "img": "../img/products/new/katana.png"
+    },
+    {
+        "id": 33,
+        "title": "Такао",
+        "desc": "Тунец, сыр сливочный, креветка, огурец, рис, нори.",
+        "price": 360,
+        "weight": "280 гр.  8 шт.",
+        "img": "../img/products/new/takao.png"
+    },
+    {
+        "id": 34,
+        "title": "Токио",
+        "desc": "Угорь, сыр сливочный, огурец, креветка, унаги, кунжут, рис, нори.",
+        "price": 630,
+        "weight": "290 гр.  8 шт.",
+        "img": "../img/products/new/tokio.png"
+    },
+    {
+        "id": 35,
+        "title": "Ролл в стружке тунца",
+        "desc": "Угорь, стружка тунца, огурец, сыр сливочный, унаги, рис, нори.",
+        "price": 420,
+        "weight": "260 гр.  8 шт.",
+        "img": "../img/products/new/rollinstr.png"
+    },
+    {
+        "id": 36,
+        "title": "Маки с Лососем",
+        "desc": "Лосось, нори, рис.",
+        "price": 290,
+        "weight": "150 гр.  6 шт.",
+        "img": "../img/products/maki/maki-losos.png"
+    },
+    {
+        "id": 37,
+        "title": "Маки c Угрем",
+        "desc": "Угорь, унаги, кунжут, нори, рис.",
+        "price": 330,
+        "weight": "160 гр.  6 шт.",
+        "img": "../img/products/maki/maki-ygor.png"
+    },
+    {
+        "id": 38,
+        "title": "Маки с Креветкой",
+        "desc": "Креветка,унаги, кунжут, нори, рис.",
+        "price": 220,
+        "weight": "160 гр.  6 шт.",
+        "img": "../img/products/maki/maki-shramp.png"
+    },
+    {
+        "id": 39,
+        "title": "Маки с Лососем и огурцом",
+        "desc": "Лосось, огурец, рис, нори.",
+        "price": 300,
+        "weight": "150 гр.  6 шт.",
+        "img": "../img/products/maki/maki-lososogyrec.png"
+    },
+    {
+        "id": 40,
+        "title": "Маки с Тунцом",
+        "desc": "Тунец, бальзамик, нори, рис.",
+        "price": 190,
+        "weight": "150 гр.  6 шт.",
+        "img": "../img/products/maki/maki-tynec.png"
+    },
+    {
+        "id": 41,
+        "title": "Маки с Крабом",
+        "desc": "Краб, чука, рис, нори, ореховый соус.",
+        "price": 130,
+        "weight": "160 гр.  6 шт.",
+        "img": "../img/products/maki/maki-crab.png"
+    },
+    {
+        "id": 42,
+        "title": "Хияши",
+        "desc": "Чука, ореховый соус, нори, рис.",
+        "price": 120,
+        "weight": "150 гр.  6 шт.",
+        "img": "../img/products/maki/hiyashi.png"
+    },
+    {
+        "id": 43,
+        "title": "Маки с жареным Тунцом",
+        "desc": "Жареный тунец, болгарский перец, бальзамик,  рис, нори.",
+        "price": 200,
+        "weight": "150 гр.  6 шт.",
+        "img": "../img/products/maki/maki-freetynec.png"
+    },
+    {
+        "id": 44,
+        "title": "Аляска",
+        "desc": "Лосось, краб, огурец, нори, рис.",
+        "price": 260,
+        "weight": "160 гр.  6 шт.",
+        "img": "../img/products/maki/alyaska.png"
+    },
+    {
+        "id": 45,
+        "title": "Окинава",
+        "desc": "Краб, сыр сливочный, икра масаго, ореховый соус, рис, нори.",
+        "price": 220,
+        "weight": "160 гр.  6 шт.",
+        "img": "../img/products/maki/okinava.png"
+    },
+    {
+        "id": 46,
+        "title": "Футомак с Тунцом",
+        "desc": "Тунец, огурец, икра масаго, рис, нори, бальзамик.",
+        "price": 290,
+        "weight": "240 гр.  12 шт.",
+        "img": "../img/products/futumaki/futum-tynec.png"
+    },
+    {
+        "id": 47,
+        "title": "Футомак с Угрем",
+        "desc": "Угорь, огурец, икра масаго, унаги, кунжут, рис, нори.",
+        "price": 480,
+        "weight": "240 гр.  12 шт.",
+        "img": "../img/products/futumaki/futum-ygor.png"
+    },
+    {
+        "id": 48,
+        "title": "Футомак Острый",
+        "desc": "Тунец, краб, огурец, икра масаго, острый соус, рис, нори.",
+        "price": 300,
+        "weight": "250 гр.  12 шт.",
+        "img": "../img/products/futumaki/futum-hot.png"
+    },
+    {
+        "id": 49,
+        "title": "Футомак с Креветкой",
+        "desc": "Креветка, огурец, икра масаго, нори, рис, ореховый соус.",
+        "price": 290,
+        "weight": "230 гр.  12 шт.",
+        "img": "../img/products/futumaki/futum-shramp.png"
+    },
+    {
+        "id": 50,
+        "title": "Футомак с Лососем",
+        "desc": "Лосось, огурец, икра масаго, рис, нори.",
+        "price": 460,
+        "weight": "230 гр.  12 шт.",
+        "img": "../img/products/futumaki/futum-losos.png"
+    },
+    {
+        "id": 51,
+        "title": "Запечённый шик",
+        "desc": "Креветка, сыр сливочный, икра масаго, спайси соус, унаги, сырный соус, рис, нори.",
+        "price": 360,
+        "weight": "300 гр.  8 шт.",
+        "img": "../img/products/hot-roll/zapechshik.png"
+    },
+    {
+        "id": 52,
+        "title": "Горячий шик",
+        "desc": "Лосось, сыр сливочный, авокадо, унаги, рис, нори.",
+        "price": 430,
+        "weight": "280 гр.  8 шт.",
+        "img": "../img/products/hot-roll/hotshik.png"
+    },
+    {
+        "id": 53,
+        "title": "Бешенный лосось",
+        "desc": "Лосось, сыр сливочный, соус шрирача, унаги, кунжут, рис, нори.",
+        "price": 450,
+        "weight": "300 гр.  8 шт.",
+        "img": "../img/products/hot-roll/crazy-losos.png"
+    },
+    {
+        "id": 54,
+        "title": "Сакура",
+        "desc": "Лосось, сыр сливочный, перец, креветка, чесночный соус, рис, нори.",
+        "price": 620,
+        "weight": "300 гр.  8 шт.",
+        "img": "../img/products/new/sakura.png"
+    },
+    {
+        "id": 55,
+        "title": "Фунчоза с курицей",
+        "desc": "Курица, лапша, болгарский перец, шампиньоны, грибы шиитаке, омлет.",
+        "price": 300,
+        "weight": "200 гр.",
+        "img": "../img/products/wok/funchoza-chicken.png"
+    },
+    {
+        "id": 56,
+        "title": "Фунчоза с лососем",
+        "desc": "Лосось, лапша, болгарский перец, шампиньоны, грибы шиитаке, омлет.",
+        "price": 580,
+        "weight": "200 гр.",
+        "img": "../img/products/wok/funchoza-losos.png"
+    },
+    {
+        "id": 57,
+        "title": "Удон с курицей",
+        "desc": "Курица, лапша, болгарский перец, шампиньоны, грибы шиитаке, омлет.",
+        "price": 300,
+        "weight": "200 гр.",
+        "img": "../img/products/wok/ydon-chicken.png"
+    },
+    {
+        "id": 58,
+        "title": "Удон с лососем",
+        "desc": "Лосось, лапша, болгарский перец, шампиньоны, грибы шиитаке, омлет.",
+        "price": 580,
+        "weight": "200 гр.",
+        "img": "../img/products/wok/ydon-losos.png"
+    },
+    {
+        "id": 59,
+        "title": "Сет “Калифорния”",
+        "desc": "Калифор. с лососем,<br>Калифор. с тунцом,<br>Калифор. с угрем,<br>Калифор. с крабом, Калифор. с жареным лососем, Калифор. с креветкой",
+        "price": 2500,
+        "weight": "1500 гр. 48 шт.",
+        "img": "../img/products/sets/sushishik-set.png"
+    },
+    {
+        "id": 60,
+        "title": "Сет “Филадельфия”",
+        "desc": "Филадельфия с лососем, Филадельфия с тунцом, Филадельфия с угрем,<br>Трио",
+        "price": 1950,
+        "weight": "1000 гр. 32 шт.",
+        "img": "../img/products/sets/sushishik-set.png"
+    },
+    {
+        "id": 61,
+        "title": "Сет “Лосось”",
+        "desc": "Филадельфия с лососем,<br>Хиросима,<br>Калифорния с лососем,<br>Катана.",
+        "price": 2450,
+        "weight": "1080 гр. 32 шт.",
+        "img": "../img/products/sets/sushishik-set.png"
+    },
+    {
+        "id": 62,
+        "title": "Сет “Маки”",
+        "desc": "Маки  с лососем и огурцом,<br>Маки с угрем,<br>Маки с креветкой,<br>Маки с жареным тунцом Окинава",
+        "price": 1250,
+        "weight": "780 гр. 30 шт.",
+        "img": "../img/products/sets/sushishik-set.png"
+    },
+    {
+        "id": 63,
+        "title": "Сет “Суши Шик”",
+        "desc": "Хиросима,<br>Ямамото,<br>Такао,<br>Канада в кунжуте",
+        "price": 1900,
+        "weight": "1100 гр. 32 шт.",
+        "img": "../img/products/sets/sushishik-set.png"
+    },
+    {
+        "id": 64,
+        "title": "“Горячий сет”",
+        "desc": "Запеченый шик,<br>Сакура,<br>Горячий шик,<br>Бешенный лосось",
+        "price": 1850,
+        "weight": "1200 гр. 32 шт.",
+        "img": "../img/products/sets/sushishik-set.png"
+    },
+    {
+        "id": 65,
+        "title": "Салат Чукка",
+        "desc": "Салат чукка",
+        "price": 140,
+        "weight": "200 гр.",
+        "img": "../img/products/dop/chuka.png"
+    },
+    {
+        "id": 66,
+        "title": "Картофель Фри с соусом",
+        "desc": "Картофель фри, томатный соус",
+        "price": 140,
+        "weight": "150 гр.",
+        "img": "../img/products/dop/free-potato.png"
+    },
+    {
+        "id": 67,
+        "title": "Палочки Темпура",
+        "desc": "Краб, угаги, соус.",
+        "price": 300,
+        "weight": "260 гр.",
+        "img": "../img/products/dop/tempyra.png"
+    },
+    {
+        "id": 68,
+        "title": "Напиток PEPSI 0.5 л.",
+        "desc": "Напиток PEPSI 0.5 л.",
+        "price": 95,
+        "weight": "500 мл.",
+        "img": "../img/products/dop/pepsi05.png"
+    },
+    {
+        "id": 69,
+        "title": "Напиток PEPSI 1.5 л.",
+        "desc": "Напиток PEPSI 1.5 л.",
+        "price": 170,
+        "weight": "1500 мл.",
+        "img": "../img/products/dop/pepsi1.png"
+    },
+    {
+        "id": 70,
+        "title": "Напиток PEPSI 0.33 л.",
+        "desc": "Напиток PEPSI 0.33 л.",
+        "price": 75,
+        "weight": "330 мл.",
+        "img": "../img/products/dop/pepsi03.png"
+    },
+    {
+        "id": 71,
+        "title": "Вода BORJOMI 0.5 л.",
+        "desc": "Вода BORJOMI 0.5 л.",
+        "price": 120,
+        "weight": "500 мл.",
+        "img": "../img/products/dop/borjomi.png"
+    }
+]

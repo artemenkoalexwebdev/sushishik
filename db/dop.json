@@ -1,0 +1,58 @@
+[
+    {
+        "id": 65,
+        "title": "Салат Чукка",
+        "desc": "Салат чукка",
+        "price": 140,
+        "weight": "200 гр.",
+        "img": "../img/products/dop/chuka.png"
+    },
+    {
+        "id": 66,
+        "title": "Картофель Фри с соусом",
+        "desc": "Картофель фри, томатный соус",
+        "price": 140,
+        "weight": "150 гр.",
+        "img": "../img/products/dop/free-potato.png"
+    },
+    {
+        "id": 67,
+        "title": "Палочки Темпура",
+        "desc": "Краб, угаги, соус.",
+        "price": 300,
+        "weight": "260 гр.",
+        "img": "../img/products/dop/tempyra.png"
+    },
+    {
+        "id": 68,
+        "title": "Напиток PEPSI 0.5 л.",
+        "desc": "Напиток PEPSI 0.5 л.",
+        "price": 95,
+        "weight": "500 мл.",
+        "img": "../img/products/dop/pepsi05.png"
+    },
+    {
+        "id": 69,
+        "title": "Напиток PEPSI 1.5 л.",
+        "desc": "Напиток PEPSI 1.5 л.",
+        "price": 170,
+        "weight": "1500 мл.",
+        "img": "../img/products/dop/pepsi1.png"
+    },
+    {
+        "id": 70,
+        "title": "Напиток PEPSI 0.33 л.",
+        "desc": "Напиток PEPSI 0.33 л.",
+        "price": 75,
+        "weight": "330 мл.",
+        "img": "../img/products/dop/pepsi03.png"
+    },
+    {
+        "id": 71,
+        "title": "Вода BORJOMI 0.5 л.",
+        "desc": "Вода BORJOMI 0.5 л.",
+        "price": 120,
+        "weight": "500 мл.",
+        "img": "../img/products/dop/borjomi.png"
+    }
+]
